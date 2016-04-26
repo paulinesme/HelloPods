@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    __weak IBOutlet UIButton *helloButton;
+    __weak IBOutlet UITextView *outputTextfield;
+    
+}
 
 @end
 

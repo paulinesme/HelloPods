@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		493CA3A21CC8E99000C38BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3A11CC8E99000C38BB4 /* main.m */; };
 		493CA3A51CC8E99000C38BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3A41CC8E99000C38BB4 /* AppDelegate.m */; };
-		493CA3A81CC8E99000C38BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3A71CC8E99000C38BB4 /* ViewController.m */; };
 		493CA3AB1CC8E99000C38BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493CA3A91CC8E99000C38BB4 /* Main.storyboard */; };
 		493CA3AD1CC8E99000C38BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493CA3AC1CC8E99000C38BB4 /* Assets.xcassets */; };
 		493CA3B01CC8E99000C38BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493CA3AE1CC8E99000C38BB4 /* LaunchScreen.storyboard */; };
 		493CA3BB1CC8E99000C38BB4 /* HelloPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3BA1CC8E99000C38BB4 /* HelloPodsTests.m */; };
 		493CA3C61CC8E99000C38BB4 /* HelloPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3C51CC8E99000C38BB4 /* HelloPodsUITests.m */; };
+		493CA3D51CCF203F00C38BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3D31CCF203F00C38BB4 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		493CA3A11CC8E99000C38BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		493CA3A31CC8E99000C38BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		493CA3A41CC8E99000C38BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		493CA3A61CC8E99000C38BB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		493CA3A71CC8E99000C38BB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		493CA3AA1CC8E99000C38BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493CA3AC1CC8E99000C38BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493CA3AF1CC8E99000C38BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		493CA3C11CC8E99000C38BB4 /* HelloPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493CA3C51CC8E99000C38BB4 /* HelloPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPodsUITests.m; sourceTree = "<group>"; };
 		493CA3C71CC8E99000C38BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493CA3D31CCF203F00C38BB4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		493CA3D41CCF203F00C38BB4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		493CA39F1CC8E99000C38BB4 /* HelloPods */ = {
 			isa = PBXGroup;
 			children = (
+				493CA3D31CCF203F00C38BB4 /* ViewController.m */,
+				493CA3D41CCF203F00C38BB4 /* ViewController.h */,
 				493CA3A31CC8E99000C38BB4 /* AppDelegate.h */,
 				493CA3A41CC8E99000C38BB4 /* AppDelegate.m */,
-				493CA3A61CC8E99000C38BB4 /* ViewController.h */,
-				493CA3A71CC8E99000C38BB4 /* ViewController.m */,
 				493CA3A91CC8E99000C38BB4 /* Main.storyboard */,
 				493CA3AC1CC8E99000C38BB4 /* Assets.xcassets */,
 				493CA3AE1CC8E99000C38BB4 /* LaunchScreen.storyboard */,
@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					493CA39C1CC8E99000C38BB4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EWNH6FF9CF;
 					};
 					493CA3B51CC8E99000C38BB4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493CA3A81CC8E99000C38BB4 /* ViewController.m in Sources */,
+				493CA3D51CCF203F00C38BB4 /* ViewController.m in Sources */,
 				493CA3A51CC8E99000C38BB4 /* AppDelegate.m in Sources */,
 				493CA3A21CC8E99000C38BB4 /* main.m in Sources */,
 			);
@@ -413,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mypay.HelloPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mypay.HelloPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

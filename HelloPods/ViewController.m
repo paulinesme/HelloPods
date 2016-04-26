@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Action
+- (IBAction)helloButtonClicked:(id)sender {
+    
+    static int clickedCounter = 0;
+    
+    clickedCounter++;
+    
+    // Update UI
+    [outputTextfield setText:[NSString stringWithFormat:@"%d", clickedCounter]];
+}
+
 @end
