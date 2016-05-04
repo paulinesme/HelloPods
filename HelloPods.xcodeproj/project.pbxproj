@@ -15,6 +15,9 @@
 		493CA3BB1CC8E99000C38BB4 /* HelloPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3BA1CC8E99000C38BB4 /* HelloPodsTests.m */; };
 		493CA3C61CC8E99000C38BB4 /* HelloPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3C51CC8E99000C38BB4 /* HelloPodsUITests.m */; };
 		493CA3D51CCF203F00C38BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493CA3D31CCF203F00C38BB4 /* ViewController.m */; };
+		91E04B4734A1536F3F15069D /* libPods-HelloPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61767C8D9C8A58CB39858A03 /* libPods-HelloPods.a */; };
+		B86C5A7DC768A1B2A93D187D /* libPods-HelloPodsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EC7090BDD0B43DCE1C1D18 /* libPods-HelloPodsTests.a */; };
+		E0633D5C60000538A880E038 /* libPods-HelloPodsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D519DF17996646C3AA758F7B /* libPods-HelloPodsUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46941549402B73FAFE769870 /* Pods-HelloPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPods/Pods-HelloPods.release.xcconfig"; sourceTree = "<group>"; };
 		493CA39D1CC8E99000C38BB4 /* HelloPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493CA3A11CC8E99000C38BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		493CA3A31CC8E99000C38BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		493CA3C71CC8E99000C38BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493CA3D31CCF203F00C38BB4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		493CA3D41CCF203F00C38BB4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61767C8D9C8A58CB39858A03 /* libPods-HelloPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7462422FC6E0005223B22A50 /* Pods-HelloPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPods/Pods-HelloPods.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8866D566A76F8B59F6BA78 /* Pods-HelloPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPodsTests/Pods-HelloPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C438DA16A7E2DAE99292CB36 /* Pods-HelloPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPodsTests/Pods-HelloPodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D519DF17996646C3AA758F7B /* libPods-HelloPodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloPodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC149FCDBB14D032608C5D83 /* Pods-HelloPodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPodsUITests/Pods-HelloPodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B2A48EE5CD4F1EE45C7839 /* Pods-HelloPodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloPodsUITests/Pods-HelloPodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6EC7090BDD0B43DCE1C1D18 /* libPods-HelloPodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloPodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E04B4734A1536F3F15069D /* libPods-HelloPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86C5A7DC768A1B2A93D187D /* libPods-HelloPodsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0633D5C60000538A880E038 /* libPods-HelloPodsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				493CA3B91CC8E99000C38BB4 /* HelloPodsTests */,
 				493CA3C41CC8E99000C38BB4 /* HelloPodsUITests */,
 				493CA39E1CC8E99000C38BB4 /* Products */,
+				E12084BB10197EAEFA3BF442 /* Pods */,
+				AA53D28DA7CB2E168ECE7B46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = HelloPodsUITests;
 			sourceTree = "<group>";
 		};
+		AA53D28DA7CB2E168ECE7B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61767C8D9C8A58CB39858A03 /* libPods-HelloPods.a */,
+				F6EC7090BDD0B43DCE1C1D18 /* libPods-HelloPodsTests.a */,
+				D519DF17996646C3AA758F7B /* libPods-HelloPodsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12084BB10197EAEFA3BF442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7462422FC6E0005223B22A50 /* Pods-HelloPods.debug.xcconfig */,
+				46941549402B73FAFE769870 /* Pods-HelloPods.release.xcconfig */,
+				7E8866D566A76F8B59F6BA78 /* Pods-HelloPodsTests.debug.xcconfig */,
+				C438DA16A7E2DAE99292CB36 /* Pods-HelloPodsTests.release.xcconfig */,
+				DC149FCDBB14D032608C5D83 /* Pods-HelloPodsUITests.debug.xcconfig */,
+				F6B2A48EE5CD4F1EE45C7839 /* Pods-HelloPodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493CA3CA1CC8E99000C38BB4 /* Build configuration list for PBXNativeTarget "HelloPods" */;
 			buildPhases = (
+				6C129907C758649A7DBD94D1 /* 📦 Check Pods Manifest.lock */,
 				493CA3991CC8E99000C38BB4 /* Sources */,
 				493CA39A1CC8E99000C38BB4 /* Frameworks */,
 				493CA39B1CC8E99000C38BB4 /* Resources */,
+				191DF9AE1B57792065F7EF8B /* 📦 Embed Pods Frameworks */,
+				B2E89A1F5FE268414C82013B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493CA3CD1CC8E99000C38BB4 /* Build configuration list for PBXNativeTarget "HelloPodsTests" */;
 			buildPhases = (
+				22D9AF812DCF6B2737A193FC /* 📦 Check Pods Manifest.lock */,
 				493CA3B21CC8E99000C38BB4 /* Sources */,
 				493CA3B31CC8E99000C38BB4 /* Frameworks */,
 				493CA3B41CC8E99000C38BB4 /* Resources */,
+				FA648C80C8D9ECBC5F3F69E6 /* 📦 Embed Pods Frameworks */,
+				2DCBDD39F45D6A60B2947AE1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493CA3D01CC8E99000C38BB4 /* Build configuration list for PBXNativeTarget "HelloPodsUITests" */;
 			buildPhases = (
+				ACE4AB44D7F07047EB3674E3 /* 📦 Check Pods Manifest.lock */,
 				493CA3BD1CC8E99000C38BB4 /* Sources */,
 				493CA3BE1CC8E99000C38BB4 /* Frameworks */,
 				493CA3BF1CC8E99000C38BB4 /* Resources */,
+				585C14F9B050668CA73C9F5E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +313,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191DF9AE1B57792065F7EF8B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloPods/Pods-HelloPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22D9AF812DCF6B2737A193FC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCBDD39F45D6A60B2947AE1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloPodsTests/Pods-HelloPodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585C14F9B050668CA73C9F5E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloPodsUITests/Pods-HelloPodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C129907C758649A7DBD94D1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE4AB44D7F07047EB3674E3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E89A1F5FE268414C82013B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloPods/Pods-HelloPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA648C80C8D9ECBC5F3F69E6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloPodsTests/Pods-HelloPodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		493CA3991CC8E99000C38BB4 /* Sources */ = {
@@ -412,6 +583,7 @@
 		};
 		493CA3CB1CC8E99000C38BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7462422FC6E0005223B22A50 /* Pods-HelloPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -426,6 +598,7 @@
 		};
 		493CA3CC1CC8E99000C38BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46941549402B73FAFE769870 /* Pods-HelloPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -440,6 +613,7 @@
 		};
 		493CA3CE1CC8E99000C38BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8866D566A76F8B59F6BA78 /* Pods-HelloPodsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloPodsTests/Info.plist;
@@ -452,6 +626,7 @@
 		};
 		493CA3CF1CC8E99000C38BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C438DA16A7E2DAE99292CB36 /* Pods-HelloPodsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloPodsTests/Info.plist;
@@ -464,6 +639,7 @@
 		};
 		493CA3D11CC8E99000C38BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC149FCDBB14D032608C5D83 /* Pods-HelloPodsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HelloPodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -475,6 +651,7 @@
 		};
 		493CA3D21CC8E99000C38BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B2A48EE5CD4F1EE45C7839 /* Pods-HelloPodsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HelloPodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -503,6 +680,7 @@
 				493CA3CC1CC8E99000C38BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493CA3CD1CC8E99000C38BB4 /* Build configuration list for PBXNativeTarget "HelloPodsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +689,7 @@
 				493CA3CF1CC8E99000C38BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493CA3D01CC8E99000C38BB4 /* Build configuration list for PBXNativeTarget "HelloPodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +698,7 @@
 				493CA3D21CC8E99000C38BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
